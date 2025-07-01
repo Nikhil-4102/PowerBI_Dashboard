@@ -1,55 +1,60 @@
 # 📊 Power BI Dashboard – Mobile Sales Analysis
 
-This project showcases an interactive Power BI Dashboard developed to analyze **Mobile Sales Data** using Excel as the data source. It provides key insights into sales performance, brand trends, revenue, customer preferences, and regional distribution.
+An interactive and professional **Power BI Dashboard** designed to analyze mobile sales performance using Excel as a data source. This project enables stakeholders to monitor key KPIs, sales trends, customer behavior, and payment methods with ease.
+
+![Screenshot 2025-07-01 215541](https://github.com/user-attachments/assets/0e094620-007f-4251-a486-2304c2f05129)
+
 
 ---
 
-![Screenshot 2025-07-01 215541](https://github.com/user-attachments/assets/dcb4f46d-f649-42e2-ac72-f643ff2bd258)
+## 🎯 Project Objective
 
-## 🚀 Project Objective
+To build a comprehensive dashboard that empowers decision-makers to:
+- Track overall sales, quantity sold, and transaction volume
+- Analyze brand and model-wise performance
+- Understand geographic sales distribution
+- Review monthly trends and customer ratings
+- Visualize payment method preferences
 
-To create a visually informative and interactive dashboard that enables stakeholders to:
-- Understand sales patterns across brands and models
-- Track total revenue and units sold
-- Identify top-performing regions and products
-- Support data-driven decisions in mobile retail
+---
 
-## 📁 Dataset
+## 🗂️ Data Source
 
-- **Source:** Microsoft Excel Workbook (`.xlsx`)
-- **Contents:**  
-  - Mobile brand & model  
-  - Sales quantity  
-  - Revenue  
-  - Region/City  
-  - Date of sale  
+- **File Format:** Excel (`.xlsx`)
+- **Key Fields:**
+  - Mobile Brand & Model
+  - Total Sales, Quantity
+  - Transaction Count
+  - City/Region
+  - Month & Day of Sale
+  - Customer Ratings
+  - Payment Method
 
-## 🛠️ Tools & Technologies
+---
 
-- **Power BI Desktop**  
-- **Microsoft Excel**  
-- **Data Cleaning & Transformation:** Power Query  
-- **Visualizations:** Bar charts, Pie charts, KPIs, Maps, Slicers
+## 🛠 Tools & Technologies
 
-## 📈 Key Dashboard Features
+- **Power BI Desktop**
+- **Microsoft Excel**
+- **Power Query (for ETL)**
+- **DAX (for measures and KPIs)**
 
-- ✅ **Total Revenue and Units Sold** – displayed via dynamic KPIs  
-- 📍 **Sales by Region** – geographic heat map  
-- 📊 **Brand-wise Sales Distribution** – bar/pie chart visualization  
-- 🕒 **Monthly/Quarterly Trends** – time series graph  
-- 🏆 **Top-Selling Models** – sorted performance table  
-- 🎯 **Interactive Filters** – by brand, region, and time
+---
 
-## 📷 Screenshots
+## 📈 Dashboard Features
 
-> Add screenshots of the dashboard here (recommended for GitHub preview)
+| 📌 Feature                            | 🔍 Description                                          |
+|--------------------------------------|---------------------------------------------------------|
+| ✅ Total Sales, Quantity, Transactions | Key KPI Cards at the top                                 |
+| 🗺️ Sales by City                      | India map with city-wise sales bubbles                  |
+| 📊 Quantity by Month                 | Line chart of monthly performance                       |
+| 🌟 Customer Ratings Distribution     | Bar chart of 1 to 5-star ratings                        |
+| 💳 Transactions by Payment Method   | Donut chart showing UPI, Debit, Credit, Cash            |
+| 🏆 Top Mobile Models                 | Horizontal bar chart with sales by model                |
+| 📅 Sales by Day Name                 | Weekly trend line with highest performing days          |
+| 🎛️ Filters                          | Slicers for Brand, Model, Payment Method, Day & Month   |
 
-## 📌 How to Use
+---
 
-1. Download or clone this repository
-2. Open the `.pbix` file using Power BI Desktop
-3. Connect to the Excel data source if prompted
-4. Interact with slicers and filters to explore insights
-
-## 📂 Folder Structure
+## 📁 Folder Structure
 
